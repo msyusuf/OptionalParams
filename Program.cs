@@ -11,10 +11,10 @@ namespace OptionalParams
     {
         static void Main(string[] args)
         {
-            Time t1 = new Time();   // creating an obj of Time with no arguments
-            Time t2 = new Time(10);   // creating an obj of Time with no arguments
-            Time t3 = new Time(10,12);   // creating an obj of Time with no arguments
-            Time t4 = new Time(10, 12, 32);   // creating an obj of Time with no arguments
+            Time t1 = new Time();           // creating an obj of Time with no arguments
+            Time t2 = new Time(10);         // creating an obj of Time with no arguments
+            Time t3 = new Time(10,12);      // creating an obj of Time with no arguments
+            Time t4 = new Time(10, 12, 32); // creating an obj of Time with no arguments
             Console.WriteLine(t1);
             Console.WriteLine(t2);
             Console.WriteLine(t3);
